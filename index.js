@@ -242,7 +242,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/CallerBot/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/CallerBot/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else if (postback == "sharebot"){
         botly.sendGeneric({id: senderId, elements: {
@@ -252,7 +252,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/ShareBotApp/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/ShareBotApp/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else if (postback == "bottpad"){
         botly.sendGeneric({id: senderId, elements: {
@@ -262,7 +262,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/Bottpad/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/Bottpad/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else if (postback == "torjman") {
         botly.sendGeneric({id: senderId, elements: {
@@ -272,7 +272,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/TorjmanBot/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/TorjmanBot/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else if (postback == "botube") {
         botly.sendGeneric({id: senderId, elements: {
@@ -282,7 +282,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/BotubeApp/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/BotubeApp/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL}); 
        } else if (postback == "qbot") {
         botly.sendGeneric({id: senderId, elements: {
@@ -292,7 +292,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/QBotAI/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/QBotAI/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else if (postback == "simsimi") {
         botly.sendGeneric({id: senderId, elements: {
@@ -302,7 +302,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
            buttons: [
               botly.createWebURLButton("على الماسنجر 💬", "m.me/SimsimiAlgerian/"),
               botly.createWebURLButton("على الفيسبوك 🌐", "facebook.com/SimsimiAlgerian/"),
-              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/YacineDjenidi.DZ/")]},
+              botly.createWebURLButton("حساب الصانع 🇩🇿", "facebook.com/0xNoti/")]},
             aspectRatio: Botly.CONST.IMAGE_ASPECT_RATIO.HORIZONTAL});
        } else {
         await db.update({ lang: postback }, senderId)
@@ -347,7 +347,7 @@ botly.setPersistentMenu({
             },{
               type:  "web_url",
               title: "صنع بكل حـ❤️ـب في الجزائر",
-              url:   "m.me/100011041393904/",
+              url:   "m.me/100009587281617/",
               webview_height_ratio: "full"
             }
           ]
