@@ -314,7 +314,7 @@ botly.on("postback", async (senderId, message, postback, data, ref) => {
    /*--------- e n d ---------*/
 });
 /*------------- RESP -------------*/
-/*
+
 botly.setGetStarted({pageId: PageID, payload: "GET_STARTED"});
 botly.setGreetingText({
     pageId: PageID,
