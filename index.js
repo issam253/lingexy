@@ -346,7 +346,7 @@ botly.setPersistentMenu({
               payload: "ChangeLang"
             },{
               type:  "web_url",
-              title: "صنع بكل حـ❤️ـب في الجزائر",
+              title: "صنع بكل حـ❤️ـب في الجز🌙ائر",
               url:   "m.me/100009587281617/",
               webview_height_ratio: "full"
             }
